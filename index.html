@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h3>CRUD OF MY OWN STYLING</h3>
+    <form action="#"id="frm">
+        <input type="hidden" id="id"/>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="full name"/>      
+        </div>
+         <div class="form-group">
+            <label for="age">Age</label>
+            <input type="text" id="age" name="age" placeholder="Age"/>      
+        </div>
+         <div class="form-group">
+            <label for="city">city</label>
+            <input type="text" id="city" name="city" placeholder="city"/>      
+        </div>
+        <button type="Submit" class="btn">
+            <ion-icon name="save-outline"></ion-icon>
+            Save</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                <th>S.no</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Edit</th>
+                <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody >
+                <tr>
+                    <td>1</td>
+                    <td>Fathi</td>
+                    <td>19</td>
+                    <td>chennai</td>
+                
+                    
+                    <td>
+                        <button class="btn-edit">
+                        <ion-icon name="create"></ion-icon>
+
+
+                    </button>
+                    <td>
+                        <button class="btn-delete"><ion-icon name="trash"></ion-icon></button></td>
+                </td>
+                </tr>
+                
+            </tbody>
+        </table>
+    
+   <script src="css/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
